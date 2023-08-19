@@ -1,0 +1,14 @@
+# Ignore mac systems files 
+.DS_store
+
+# Ignore node_modules
+node_modules
+
+# Ignore virtual environment files
+.env
+
+# Ignore SASS configuration files
+.sass-cache
+
+# Ignore HTML for practicing
+icons.html
