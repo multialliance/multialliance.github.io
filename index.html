@@ -152,7 +152,7 @@
                 </div>
 
                 <!--Call to Action-->
-                <a href="#" class="button">CONTACT US NOW!</a>
+                <a href="#contact" class="button">CONTACT US NOW!</a>
                 <!--End Call to Action-->
 
             </div>
@@ -523,13 +523,26 @@
                     </div>
                 </div>
                 <!--End Pricing Block-->
-
             </div>
         </section>
         <!--End of Pricing Tables-->
 
-        <!--Signup form-->
-        <section id="contact" class="scrollto clearfix">
+        <!--temporary contact button (this section must be deleted or commented, when contact form is activated)-->
+        <section id="contact" class="scrollto clearfix" style="text-align: center;">
+            <div class="row clearfix">
+                <div class="section-heading" style="text-align: center;">
+                    <h3>HELLO</h3>
+                    <h2 class="section-title">Please contact us</h2>
+                </div>
+            </div>
+            <!--mailto contact button-->
+                <a href="mailto:contact@multialliance.net" class="button" style="width: 300px;">CONTACT US NOW!</a>
+            <!--End mailto contact button-->
+        </section>
+        <!-- End temporary contact button (this section must be deleted or commented, when contact form is activated)-->
+
+        <!--Signup form (temporary commented)
+        <section id="contact" class="scrollto clearfix"
             <div class="section-heading" style="text-align: center;">
                 <h3>HELLO</h3>
                 <h2 class="section-title">Please contact us</h2>
@@ -537,11 +550,11 @@
             <div class="row clearfix">
                 <div class="container" style="text-align: center;">
                     <form action="mailto:contact@multialliance.net" method="post" enctype="text/plain">
-                        <label for="fname">Full Name</label>
+                        <label for="fname">Full Name</label><br>
                         <input type="text" id="fname" name="fullname" placeholder="Your fullname.."><br>                
-                        <label for="companyname">Company Name</label>
+                        <label for="companyname">Company Name</label><br>
                         <input type="text" id="companyname" name="companyname" placeholder="Company name.."><br>
-                        <label for="interest">Interested in:</label>
+                        <label for="interest">Interested in:</label><br>
                         <select id="interest" name="interest">
                             <option value="">Your choice..</option>
                             <option value="1">Technology consultant</option>
@@ -551,7 +564,7 @@
                             <option value="5">Personal or company project</option>
                             <option value="5">other</option>
                         </select><br>
-                        <label for="country">Country</label>
+                        <label for="country">Country</label><br>
                         <select id="country" name="country">
                             <option value="">Select your country</option>
                             <option value="afghanistan">Afghanistan</option>
@@ -750,18 +763,17 @@
                             <option value="zambia">Zambia</option>
                             <option value="zimbabwe">Zimbabwe</option>
                         </select><br>
-                        <label for="mailform">Contact email</label>
+                        <label for="mailform">Contact email</label><br>
                         <input type="email" id="contactemail" name="contactemail" placeholder="name@mail.com"><br>
-                        <label for="subject">Subject</label>
+                        <label for="subject">Subject</label><br>
                         <textarea id="subject" name="subject" placeholder="Let us know your concerns..." style="height:200px; width: 270px;"></textarea>
                     <br>
                       <input type="submit" value="Submit">
                     </form>
                 </div>
             </div>
-            
         </section>
-        <!--Enf of Signup form-->
+        --Enf of Signup form-->
 
     </main>
     <!--End Main Content Area-->
